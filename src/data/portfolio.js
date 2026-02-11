@@ -1,9 +1,9 @@
 const about = {
-  title: "Hi 👋 , I am Shehab Shalan",
+  title: "Hi 👋 , I am Enmanuel Jirón",
   description:
-    "I am a full stack developer. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste!",
-  github: "https://github.com/shehabshalan",
-  linkedin: "https://www.linkedin.com/in/shehabshalan/",
+    "I'm Js/Typescript Full Stack Developer with a strong focus on building reliable, efficient, and user-centered web applications. Passionate about solving real-world problems through clean architecture, thoughtful design, and modern practices.",
+  github: "https://github.com/jironDev",
+  linkedin: "https://www.linkedin.com/in/enmanuel-jiron/",
   cv: "#",
 };
 
@@ -11,38 +11,37 @@ const projects = {
   title: "Projects",
   personalProjects: [
     {
-      title: "Youtube Clone",
+      title: "Backend Coffee Crm",
       short:
-        "Features Firebase authentication, video upload, and video streaming.",
+        "Features JWT authentication, Bcrypt password hashing, full CRUD operations.",
       description:
-        "it is a video-sharing app built using Firebase for authentication, and data persistence. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste! ",
-      technologies: ["#React.js", "#MUI", "#Firebase"],
+        "A backend CRM platform designed to streamline client and sales management for businesses. Features include secure user authentication and authorization, customer record and lead management, activity tracking, sales pipeline management, and data-driven reporting. Built full CRUD operations with scalability and data integrity in mind, the application leverages modern development practices for performance and maintainability.",
+      technologies: ["#TypeScript", "#Node.js", "#Express.js", "#PostgreSQL", "#Prisma", "#JWT", "#exceljs", ],
       github: "#",
       demo: "#",
     },
     {
-      title: "Next.js Blog",
+      title: "Frontend Coffee Crm",
       short:
-        "Features JWT authentication, headless CMS, and full CRUD operations.",
+        "Features JWT authentication, import and export excel files, responsive design.",
       description:
-        "it is a Next.js blog site built using Strapi (a headless CMS). Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste! and also lorem",
-      technologies: ["#Next.js", "#MUI", "#Strapi", "#JWT"],
+        "A modern and scalable React application serving as the user interface for Coffee CRM—a sales and client management platform optimized for businesses handling digital accounts (e.g., streaming subscriptions, SaaS tools). Integrates secure JWT-based authentication, intuitive dashboards, automated invoicing, supplier and reseller reporting, debt tracking, and alerting. Designed for professional usability with Bootstrap and Material UI, enabling real-time data interaction and efficient workflows.",
+      technologies: ["#TypeScript", "#React.js", "#CSS", "#Bootstrap", "#MUI", "#Vite", "#React Router", "#JWT"],
       github: "#",
       demo: "#",
     },
     {
-      title: "File Sharing App",
+      title: "Weather Application Frontend",
       short:
-        "Features multi-file upload, sharing links with expiration and document preview.",
+        "Responsive design, Features asynchronous API consumption, input management and error handling.",
       description:
-        "it is a file sharing app built using the MERN stack. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste!",
+        "A responsive React app for real-time weather information, allowing users to search cities and view current conditions, temperature, and weather icons via the OpenWeatherMap API. Developed with React and Vite for fast performance, with custom CSS for mobile-friendly design. Features asynchronous API consumption, input management, error handling, and a clean, modern interface.",
       technologies: [
+        "#JavaScript",
         "#React.js",
-        "#MUI",
-        "#Express.js",
-        "#Node.js",
-        "#MongoDB",
-      ],
+        "#CSS",
+        "#Vite",    
+        ],
       github: "#",
       demo: "#",
     },

@@ -36,7 +36,20 @@ const getColorClass = (tech) => {
       return "strapi";
     case "#MUI":
       return "mui";
-    default:
+    case "#Bcrypt":
+      return "bcrypt";
+    case "#exceljs":
+      return "exceljs";
+    case "#Prisma":
+      return "prisma";
+    case "#Vite":
+      return "vite";
+    case "#Bootstrap":
+      return "bootstrap";
+    case "#React Router":
+      return "react-router";
+
+    default:      
       return "";
   }
 };

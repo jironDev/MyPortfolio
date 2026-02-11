@@ -72,7 +72,7 @@ main {
   color: #fff;
 }
 
-.mongodb {
+.exceljs {
   background-color: #07ac4e;
   color: #fff;
 }
@@ -108,5 +108,25 @@ main {
 }
 .jwt {
   background-color: #d63aff;
+  color: #fff;
+}
+
+.prisma {
+  background-color: #c61e9c;
+  color: #fff;
+}
+
+.vite {
+  background-color: #dc7311;
+  color: #fff;
+}
+
+.react-router {
+  background-color: #511642;
+  color: #fff;
+}
+
+.bootstrap {
+  background-color: #480aa5;
   color: #fff;
 }
