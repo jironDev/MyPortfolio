@@ -48,6 +48,12 @@ const getColorClass = (tech) => {
       return "bootstrap";
     case "#React Router":
       return "react-router";
+    case "#Docker":
+      return "docker";
+    case "#Nginx":
+      return "nginx";
+    case "#Linux":
+      return "linux";
 
     default:      
       return "";

@@ -130,3 +130,17 @@ main {
   background-color: #480aa5;
   color: #fff;
 }
+
+.docker {
+  background-color: #2496ed;
+  color: #fff;
+}
+.nginx {
+  background-color: #79a642;
+  color: #fff;
+}
+
+.linux {
+  background-color: #7a7a7a;
+  color: #fff;
+}

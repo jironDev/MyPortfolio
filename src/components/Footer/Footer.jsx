@@ -3,8 +3,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer>
-      <p>
-        Made with ❤️ by <span>Shehab Shalan</span>
+      <p> Always learning, always improving.
       </p>
     </footer>
   );
