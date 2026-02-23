@@ -48,7 +48,9 @@ const mobileMenu = (toggleTheme, theme) => {
 };
 
 const Navbar = ({ toggleTheme, theme }) => {
-  const logo = "{SS}.";
+  const logo = <img src="./src/assets/laptopcode_gray.png" alt="Logo" className="logo" />;
+
+  
   return (
     <header>
       <nav className="navbar">

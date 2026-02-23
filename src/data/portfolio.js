@@ -3,8 +3,9 @@ const about = {
   description:
     "I'm Js/Typescript Full Stack Developer with a strong focus on building reliable, efficient, and user-centered web applications. Passionate about solving real-world problems through clean architecture, thoughtful design, and modern practices.",
   github: "https://github.com/jironDev",
-  linkedin: "https://www.linkedin.com/in/enmanuel-jiron/",
-  cv: "#",
+  linkedin: "https://www.linkedin.com/in/edjiron",
+  cv: "./src/assets/Cv Ed 2026.pdf",
+  
 };
 
 const projects = {
@@ -25,7 +26,7 @@ const projects = {
       short:
         "Features JWT authentication, import and export excel files, responsive design.",
       description:
-        "A modern and scalable React application serving as the user interface for Coffee CRM—a sales and client management platform optimized for businesses handling digital accounts (e.g., streaming subscriptions, SaaS tools). Integrates secure JWT-based authentication, intuitive dashboards, automated invoicing, supplier and reseller reporting, debt tracking, and alerting. Designed for professional usability with Bootstrap and Material UI, enabling real-time data interaction and efficient workflows.",
+        "A modern and scalable React application serving as the user interface for Coffee CRM—a sales and client management platform optimized for businesses handling digital accounts (e.g., streaming subscriptions, SaaS tools). Integrates secure JWT-based authentication, supplier and reseller reporting, debt tracking, and alerting. Designed for professional usability with Bootstrap and Material UI, enabling real-time data interaction and efficient workflows.",
       technologies: ["#TypeScript", "#React.js", "#CSS", "#Bootstrap", "#MUI", "#Vite", "#React Router", "#JWT", "#Docker", "#Nginx"],
       github: "https://github.com/jironDev/coffe-crm-frontend",
       demo: "https://coffee-crm.netlify.app",
