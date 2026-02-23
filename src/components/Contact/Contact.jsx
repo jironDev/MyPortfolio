@@ -6,10 +6,14 @@ const Contact = () => {
     <section className="contact" id="contact">
       <div className="contact-me">
         <h1>
-          <a href="mailto:enmanueljiron12@gmail.com">
-            Contact me
-            <RiSendPlaneFill className="icon" size={30} />
-          </a>
+<a
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=enmanueljiron12@gmail.com"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Contact me
+  <RiSendPlaneFill className="icon" size={30} />
+</a>
         </h1>
       </div>
     </section>
