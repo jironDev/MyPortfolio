@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { MdLightMode, MdNightlight, MdMenu, MdClose } from "react-icons/md";
+import logolaptopcode from "../../assets/laptopcode_gray.png";
 
 const mobileMenu = (toggleTheme, theme) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -48,8 +49,8 @@ const mobileMenu = (toggleTheme, theme) => {
 };
 
 const Navbar = ({ toggleTheme, theme }) => {
-  const logo = <img src="./src/assets/laptopcode_gray.png" alt="Logo" className="logo" />;
-
+  // const logo = <img src="./src/assets/laptopcode_gray.png" alt="Logo" className="logo" />;
+const logo = <img src={logolaptopcode} alt="Logo" className="logo" />;
   
   return (
     <header>
